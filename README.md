@@ -52,4 +52,18 @@ Class AboutMe{
 }
 ```
 
-Terimah Kasih Sudah Membaca Dan Mendukung Saya
+**Original Author**
+
+Ariadi Ahmad
+
+**Contributor**
+
+Untuk ikut berkontribusi kalian bisa melakukan fork ke [https://github.com/aryadiahmad4689/ariadi-programming](https://github.com/aryadiahmad4689/ariadi-programming)
+
+* You
+
+**Donatur And Support**
+
+* [Akbar Abustang](https://github.com/akbarabustang)
+
+Terimah Kasih Sudah Membaca Dan Mendukung Kami
