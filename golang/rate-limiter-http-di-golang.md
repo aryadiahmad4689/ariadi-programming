@@ -1,4 +1,4 @@
-# Rate Limiter Http Di Golan
+# Rate Limiter Http Di Golang
 
 Halo Semua, kali ini saya akan sharing tentang rate limiter di golang. rate limiter sendiri adalah sebuah metode untuk membatalkan request dari pengguna yang terlalu banyak dalam waktu bersamaan.
 
@@ -60,7 +60,7 @@ func getVisitor(ip string) *rate.Limiter {
 	// mengecheck apakah ip ini ada
 	// jika tidak ada daftarkan ipnya di map
 	if !exists {
-		// setiap satu detik hanya ada 10 request yang diperbolahkan
+		// setiap satu detik hanya ada 15 request yang diperbolahkan
 		limiter := rate.NewLimiter(1, 15)
 
 		// menyimpan ip dan menetapkan limiter
@@ -170,7 +170,7 @@ jalankan server terlebih dahulu baru jalankan root main.go dan hasilnya\
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-lihat hasilnya ketika request kelima dia akan mengembalikan error bahwa request terlalu banyak.
+lihat hasilnya ketika request ke lima belas dia akan mengembalikan error bahwa request terlalu banyak.
 
 Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h**
 
