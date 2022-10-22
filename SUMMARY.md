@@ -8,6 +8,7 @@
 * [Research Saya Terhadap Pointer Vs Goroutine (Benchmark)](golang/research-saya-terhadap-pointer-vs-goroutine-benchmark.md)
 * [Gracefully Shutdown Golang](golang/gracefully-shutdown-golang.md)
 * [Menulis Test Table Di Golang](golang/menulis-test-table-di-golang.md)
+* [Rate Limiter Http Di Golan](golang/rate-limiter-http-di-golan.md)
 
 ## Laravel
 

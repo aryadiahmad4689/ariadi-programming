@@ -14,7 +14,7 @@ Kalau dari penjelasan seperti di atas mungkin kurang mengerti yaa. saya juga seb
 
 Pertama kita buat pabriknya dengan nama classnya Baju dan punya method namanya buatBaju
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 Selanjutnya kita buat concreate classnya. berdasarkan jenis baju yang ingin kita buat. contoh disini **`bajuLenganPanjang dan bajuLenganPendek`**
 
@@ -47,7 +47,7 @@ lalu Kita ganti misalkan si Herman pindah naganin `bajuJeans`
 
 ``![](<../.gitbook/assets/image (45).png>)``
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 lihat code di client kita tidak berubah walaupun Herman udah berubah pekerjaanya Ke **`Baju Jeans`**
 

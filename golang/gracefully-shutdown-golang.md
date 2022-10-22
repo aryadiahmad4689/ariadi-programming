@@ -14,7 +14,7 @@ Gracefull shutdown sendiri adalah sebuah mekanisme dalam menutup koneksi dengan 
 
 Buat sebuah folder di project golang kalian dengan nama server\_not. buat sebuah file bernama server\_not.go. kita akan mencoba melihat apa yang terjadi jika tidak menggunakan server not gracefull.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 Di root main kalian bisa menuliskan code berikut
 
