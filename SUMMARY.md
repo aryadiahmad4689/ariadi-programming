@@ -42,3 +42,4 @@
 * [Kenapa Test Itu Penting](pendapat-umum-tentang-coding/kenapa-test-itu-penting.md)
 * [20 Juta Pertama Saya Semenjak Kuliah](pendapat-umum-tentang-coding/20-juta-pertama-saya-semenjak-kuliah.md)
 * [Setelah Tau CRUD, Apa Lagi?](pendapat-umum-tentang-coding/setelah-tau-crud-apa-lagi.md)
+* [Kenapa Menggunakan Transaction di DB](pendapat-umum-tentang-coding/kenapa-menggunakan-transaction-di-db.md)
