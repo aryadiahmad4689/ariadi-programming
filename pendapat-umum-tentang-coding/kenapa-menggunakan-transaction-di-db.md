@@ -26,7 +26,9 @@ Kasus Kegagalan jika tidak menggunakan Transaction
 
 <figure><img src="../.gitbook/assets/transaction.drawio.png" alt=""><figcaption></figcaption></figure>
 
-Lihat proses di atas. jika tidak menggunakan transaction. kita sudah melakukan transfer ketika mengurangin saldo ternyata terjadi kegagalan. sangat berbahaya bukan jika kita tidak menggunakan transaction.
+Lihat proses di atas. jika tidak menggunakan transaction. kita sudah melakukan transfer dan berhasil dan ketika kita mencoba mengurangi saldo ternyata terjadi kegagalan uang sudah di transfer tapi saldo tidak berkurang. sangat berbahaya bukan jika kita tidak menggunakan transaction.
+
+Itulah kenapa transaction di ciptakan untuk membantu para developer untuk menangani inkonsistensi data dalam menulis data ke database.
 
 **Kapan Menggunakan Transaction?**
 
