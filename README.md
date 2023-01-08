@@ -7,7 +7,6 @@ Alasan Saya Membuat Ariadi Programming
 * Karena saya suka menulis
 * Saya juga ingin berbagi apa yang saya tau
 * Sebagai fortofolio untuk menunjang karir saya
-* Saya terlalu malas membuat video makanya saya memilih tulisan
 * Saya ingin abadi dan dikenang dengan tulisan saya
 * Saya lebih suka tulisan daripada video
 * Lagi gabut
