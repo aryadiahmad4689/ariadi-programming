@@ -9,6 +9,11 @@
 * [Gracefully Shutdown Golang](golang/gracefully-shutdown-golang.md)
 * [Menulis Test Table Di Golang](golang/menulis-test-table-di-golang.md)
 * [Rate Limiter Http Di Golang](golang/rate-limiter-http-di-golang.md)
+* [GORM Golang](golang/gorm-golang/README.md)
+  * [Install And Connet](golang/gorm-golang/install-and-connet.md)
+  * [Model Dan Migrasi](golang/gorm-golang/model-dan-migrasi.md)
+  * [Crud](golang/gorm-golang/crud.md)
+  * [Operasi Lanjutan](golang/gorm-golang/operasi-lanjutan.md)
 
 ## Laravel
 

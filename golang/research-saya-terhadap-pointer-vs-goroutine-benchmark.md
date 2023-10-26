@@ -26,7 +26,7 @@ _adalah reference_ atau alamat memori. Variabel pointer berarti variabel yang be
 
 Saya namai testnya dengan`BenchmarChange1`
 
-``![](<../.gitbook/assets/image (67).png>)``
+![](<../.gitbook/assets/image (67).png>)
 
 dia atas adalah contoh codingan dengan menggunakan pointer
 
@@ -34,7 +34,7 @@ dia atas adalah contoh codingan dengan menggunakan pointer
 
 Saya namai testnya dengan`BenchmarChange`
 
-``![](<../.gitbook/assets/image (50).png>)``
+![](<../.gitbook/assets/image (50).png>)
 
 dia atas adalah contoh codingan dengan menggunakan goroutine
 
