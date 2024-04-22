@@ -2,7 +2,7 @@
 
 Halo semua kali ini saya akan membahas sedikit research saya mengenai gourotine dan pointer di golang. kenapa saya melakukan ini. karena di kantor tempat saya bekerja sekarang terjadi perubahan code yang sangat besar yaitu mengganti semuanya kedalam pointer dan terbukti itu sangat cepat dan luar biasa. akhirnya timbullah ide di dalam pikiran saya bagaimana kalau pointer di bandingkan dengan goroutine dalam read and write sebuah data, manakah yang akan lebih cepat? disclaimer terlebih dahulu. saya tidak tau apakah yang saya lakukan dalam menulis code ini sudah benar benar best practicenya jadi mungkin ini akan mempengaruhi hasil dari bench nya.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#8f78" id="8f78"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-8f78" id="id-8f78"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -40,11 +40,11 @@ dia atas adalah contoh codingan dengan menggunakan goroutine
 
 Ketika saya coba melakukan bencmark ternyata hasilnya menggunakan pointer jauh lebih cepat
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 dari hasilnya kita bisa melihat yang menggunakan pointer hanya butuh waktu `0.0000009ns` saja dalam melakukan proses data berbeda jauh dengan menggunakan goroutine yang butuh waktu `0.0000050ns` untuk melakukan proses data. bahkan saya mengulang tiga kali tetap saja hasilnya pointer jauh lebih cepat dalam memproses sebuah data. saya tidak tau apakah saya sudah menggunakan best practice dalam menulis coding goroutine. mungkin ada saran?
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#8f78" id="8f78"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-8f78" id="id-8f78"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 

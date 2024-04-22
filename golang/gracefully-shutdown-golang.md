@@ -2,7 +2,7 @@
 
 Halo teman teman perkenalkan nama saya ariadi ahmad. kali ini saya akan share tentang gracefully shutdow in golang. oke lansung aja yaa.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#9a3c" id="9a3c"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#id-9a3c" id="id-9a3c"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -10,11 +10,11 @@ Halo teman teman perkenalkan nama saya ariadi ahmad. kali ini saya akan share te
 
 Gracefull shutdown sendiri adalah sebuah mekanisme dalam menutup koneksi dengan cara yang aman dan tepat. misalkan kalian punya sebuah permintaan untuk melakukan transfer uang dan tiba2 aplikasi di matikan di saat itu. apa yang terjadi. pasti berbahaya kan. maka disitulah gracefull shutdown hadir.
 
-### Implementasi Di Golang Not Gracefull <a href="#9d07" id="9d07"></a>
+### Implementasi Di Golang Not Gracefull <a href="#id-9d07" id="id-9d07"></a>
 
 Buat sebuah folder di project golang kalian dengan nama server\_not. buat sebuah file bernama server\_not.go. kita akan mencoba melihat apa yang terjadi jika tidak menggunakan server not gracefull.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 Di root main kalian bisa menuliskan code berikut
 
@@ -26,7 +26,7 @@ Yang Terjadi Seperti Ini
 
 Proses berhenti di tengah jalan dan transfer uang sudah di lakukan.
 
-### Kita akan coba dengan gracefull shutdown <a href="#04ce" id="04ce"></a>
+### Kita akan coba dengan gracefull shutdown <a href="#id-04ce" id="id-04ce"></a>
 
 dengan membuat sebuah folder dengan nama server dan didalamnya ada sebuah file bernama server.go
 
@@ -81,7 +81,7 @@ _Note : kenapa angakanya gak muncul karena saya salah memasukkan data parameter 
 X-REQUEST-MONEY
 ```
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#0545" id="0545"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-0545" id="id-0545"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 

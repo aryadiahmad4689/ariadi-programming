@@ -2,7 +2,7 @@
 
 Halo perkenalkan nama saya ariadi ahmad. kali ini kita akan membahas salah satu design pattern yitu Factory Pattern. Menurut Refactorin Guru Factory Pattern adalah pola desain kreasi yang menyediakan antarmuka untuk membuat objek di superclass, tetapi memungkinkan subclass untuk mengubah jenis objek yang akan dibuat.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#4596" id="4596"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-4596" id="id-4596"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -18,7 +18,7 @@ Pertama kita buat pabriknya dengan nama classnya Baju dan punya method namanya b
 
 Selanjutnya kita buat concreate classnya. berdasarkan jenis baju yang ingin kita buat. contoh disini **`bajuLenganPanjang dan bajuLenganPendek`**
 
-**``**![](<../.gitbook/assets/image (22).png>)**``**
+![](<../.gitbook/assets/image (22).png>)
 
 kita sudah membuat baju dengan mengimplementasikan pabriknya.
 
@@ -45,13 +45,13 @@ Dengan Begini kita bisa dengan mudah mengganti implementasinya. misalkan nih kit
 
 lalu Kita ganti misalkan si Herman pindah naganin `bajuJeans`
 
-``![](<../.gitbook/assets/image (45).png>)``
+![](<../.gitbook/assets/image (45).png>)
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 lihat code di client kita tidak berubah walaupun Herman udah berubah pekerjaanya Ke **`Baju Jeans`**
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#4596" id="4596"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-4596" id="id-4596"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 

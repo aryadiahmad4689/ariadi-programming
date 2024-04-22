@@ -2,7 +2,7 @@
 
 Halo Semua, kali ini saya akan sharing tentang rate limiter di golang. rate limiter sendiri adalah sebuah metode untuk membatalkan request dari pengguna yang terlalu banyak dalam waktu bersamaan.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#9a3c" id="9a3c"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#id-9a3c" id="id-9a3c"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -102,7 +102,7 @@ Kita membuat sebuah function public bernama limiter yang melewati http handler. 
 **Coba Kita Test**\
 kita membuat sebuah folder bernama server dialamnya ada file bernama server.go\
 \
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 isikan dengan
 
@@ -131,7 +131,7 @@ func main() {
 
 untuk di root main.go isikan dengan\
 foldenya sekarang seperti\
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (19).png>)
 
 ```go
 package main
@@ -168,7 +168,7 @@ func main() {
 jalankan server terlebih dahulu baru jalankan root main.go dan hasilnya\
 
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 lihat hasilnya ketika request ke lima belas dia akan mengembalikan error bahwa request terlalu banyak.
 

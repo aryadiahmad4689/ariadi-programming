@@ -23,7 +23,7 @@ Download laravel di website resminya.
 
 Setelah Itu Kita membuat sebuah folder baru di dalam `app/dengan nama Repository`
 
-``![](<../.gitbook/assets/image (81).png>)``
+![](<../.gitbook/assets/image (81).png>)
 
 Selanjutnya kita membuat duah buah file di dalam repository .sebagai contoh kita akan membuat `CustomerRepository.php dan CustomerRepositoryImplement.php` contoh kita yaitu menggunakan Customer yaa.
 
@@ -85,7 +85,7 @@ Selesai.
 **keuntungan?**
 
 1. Misalkan kalian ingin merubah implementasinya. kalian ga perlu lagi mengubah controller cukup di repository
-2. jika kalian ingin mengganti **`CustomerRepositoryImplement.php` ** dengan yang baru kalian tinggal ganti dengan meingikuti interface dan kalian bisa ubah behaviornya sesuka kalian
+2. jika kalian ingin mengganti **`CustomerRepositoryImplement.php`** dengan yang baru kalian tinggal ganti dengan meingikuti interface dan kalian bisa ubah behaviornya sesuka kalian
 3. dengan begini kita bisa melakukan unit testing hanya pada reponya.
 4. Code menjadi lebih clean
 

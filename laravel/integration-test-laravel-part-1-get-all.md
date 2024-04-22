@@ -2,7 +2,7 @@
 
 Halo guys kembali lagi kita pada materi testing pada laravel. kali ini kita akan ngetes method index di laravel crud kita yang kemarin . jadi ini kita lanjut aja ya materinya biar ga ngulang dari awal.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#9a3c" id="9a3c"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#id-9a3c" id="id-9a3c"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -16,7 +16,7 @@ Kalian ketikkan perintah untuk ngebuat test feature di folder test.
 
 `php artisan make:test CustomerTest`
 
-``![](<../.gitbook/assets/image (29).png>)``
+![](<../.gitbook/assets/image (29).png>)
 
 Maka akan terbuat sebuah file php dengan nama CustomerTest.php di folder Feature. Sekarang kita tulis test untuk method indexnya.
 
@@ -47,7 +47,7 @@ Setelah Itu Kita Jalankan Testya dengan mengetik perintah
 
 Disini kita melihat test kita berhasil dengan satu test 3 assertion yang kita masukkan.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#9a3c" id="9a3c"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#id-9a3c" id="id-9a3c"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 

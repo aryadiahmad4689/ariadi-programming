@@ -2,7 +2,7 @@
 
 Halo teman teman kali ini saya akan membahas topik yang cukup menarik buat saya dan baru saja saya pelajari dan mungkin teman teman butuhkan juga, tulisan ini saya buat agar bisa berkontribusi untuk programmer indonesia dan sebagai review jika suatu saat saya lupa materinya. tanpa berlama lama mari kita mulai dari pondasi di awal.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#4596" id="4596"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-4596" id="id-4596"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -244,7 +244,7 @@ Klik add key. pilih json dan simpan json yang terdownload nanti
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Buat Gcp Secret Kalian
 
@@ -332,7 +332,7 @@ Penjelasan Ada di File
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#4596" id="4596"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-4596" id="id-4596"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 

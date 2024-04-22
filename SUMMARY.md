@@ -42,6 +42,7 @@
 
 ## Pendapat Umum Tentang Coding
 
+* [Api Versioning](pendapat-umum-tentang-coding/api-versioning.md)
 * [Perjalanan Coding Saya](pendapat-umum-tentang-coding/perjalanan-coding-saya.md)
 * [Hal Yang Harus Diperhatikan Ketika Memulai Coding](pendapat-umum-tentang-coding/hal-yang-harus-diperhatikan-ketika-memulai-coding.md)
 * [Kenapa Test Itu Penting](pendapat-umum-tentang-coding/kenapa-test-itu-penting.md)
