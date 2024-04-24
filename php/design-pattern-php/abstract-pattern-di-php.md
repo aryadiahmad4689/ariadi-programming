@@ -2,7 +2,7 @@
 
 Halo perkenalkan nama saya ariadi ahmad. kali ini kita akan membahas desing pattern lagi yaitu abstract pattern.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#4596" id="4596"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-4596" id="id-4596"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -12,7 +12,7 @@ Menurut refactorin guru abstract pattern adala pola desain kreasi yang memungkin
 
 Contoh
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../../.gitbook/assets/image (46).png>)
 
 Seperti diatas kita punya banyak variant seperti Art,Victorian,Modern. dengan product familinya
 
@@ -20,39 +20,39 @@ Seperti diatas kita punya banyak variant seperti Art,Victorian,Modern. dengan pr
 
 Pertama untuk mengimplementasikan seperti di atas. maka yang pertama yang kita harus buat adalah Buat productnyaa dengan menggunakan factory yang sudah kita pelajarin pada tulisan sebelumnya.
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
 Oke kita telah membuat dua product. selanjutnya kita buat concreate class Varianya yang mengimplementasikan produknya.
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (18).png>)
 
 Selanjutnya Kita Buat Abstract Factory Untuk Membuat Productnya
 
-![](<../.gitbook/assets/image (52).png>)
+![](<../../.gitbook/assets/image (52).png>)
 
 Kita membuat sebuah abstract factory untuk membuat furniture. karena meja dan kursi kita anggap dia masuk sebagai family furniture.
 
 Selanjutnya Kita Buat Concreate Class Variantnya.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 dengan begini kita telah mengimplementasikan abstract factory.
 
 How To Use?
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
 Apa Kelebihanya?
 
 Misalkan nih. kita pengen buat meja dan kursi dengan variant baru contoh Minimalist. is easy.
 
-![](<../.gitbook/assets/image (87).png>)
+![](<../../.gitbook/assets/image (87).png>)
 
 Lihat kita sudah menambah kode kita tapi tidak merubah kode yang lama. dengan begini kita bisa membuat banyak variant tanpa merusak kode yang lama.
 
-<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#4596" id="4596"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-4596" id="id-4596"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 

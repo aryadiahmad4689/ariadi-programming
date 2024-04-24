@@ -14,11 +14,11 @@ Kalau dari penjelasan seperti di atas mungkin kurang mengerti yaa. saya juga seb
 
 Pertama kita buat pabriknya dengan nama classnya Baju dan punya method namanya buatBaju
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 Selanjutnya kita buat concreate classnya. berdasarkan jenis baju yang ingin kita buat. contoh disini **`bajuLenganPanjang dan bajuLenganPendek`**
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (22).png>)
 
 kita sudah membuat baju dengan mengimplementasikan pabriknya.
 
@@ -26,7 +26,7 @@ Sebenarnya factory pattern sudah selesai sampai disini. tapi saya ingin menambah
 
 Cara Implementasi
 
-![](<../.gitbook/assets/image (88).png>)
+![](<../../.gitbook/assets/image (88).png>)
 
 Sederhana banget sih. kita buat sebuah abstraksi untuk si pembuatnya. jadi misalkan satu orang nangani satu produksi aja atau bisa lebih sebenarnya tergantung kebutuhan. tapi disini saya hanya menuliskan satu aja biar mudah.
 
@@ -37,17 +37,17 @@ Sederhana banget sih. kita buat sebuah abstraksi untuk si pembuatnya. jadi misal
 
 Kita Lihat Hasilnya
 
-![](<../.gitbook/assets/image (49).png>)
+![](<../../.gitbook/assets/image (49).png>)
 
 Dengan Begini kita bisa dengan mudah mengganti implementasinya. misalkan nih kita punya produksi baju yang lain lagi. contoh BajuJeans. gampang aja. kita buat aja **`bajuJeans`** yang implement pabrik baju.
 
-![](<../.gitbook/assets/image (83).png>)
+![](<../../.gitbook/assets/image (83).png>)
 
 lalu Kita ganti misalkan si Herman pindah naganin `bajuJeans`
 
-![](<../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
-![](<../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 lihat code di client kita tidak berubah walaupun Herman udah berubah pekerjaanya Ke **`Baju Jeans`**
 

@@ -6,25 +6,25 @@ Oke disini kita akan melanjutkan integration testing pada laravel. kali ini kita
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
-![](<../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (39).png>)
 
 Setelah itu kalian menuju ke folder testing. pada part satu kita telah membuat sebuah test dengan nama `CustomerTest.php.` kita akan melanjutkan membuat test dengan method testnya adalah `test_create_success` dan `test_create_name_parameter_wrong`
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (36).png>)
 
 ini yang akan kita test
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
-![](<../.gitbook/assets/image (54).png>)
+![](<../../.gitbook/assets/image (54).png>)
 
 Sekarang buat method testnya
 
-<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 Berhasil… horeee. tiga test dengan lima assertion ini di akumulasikan dari test index jugaa.
 

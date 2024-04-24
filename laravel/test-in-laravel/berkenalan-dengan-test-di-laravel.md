@@ -17,7 +17,7 @@ Oke pertama, kalian harus mendownload laravel jika kalian belum punya laravel at
 
 kalian bisa menuju kebawah dan cari folder tests di laravel kalian
 
-![](<../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
 di dalam folder ini terdapat dua folder yaitu folder yaitu unit dan feature
 
@@ -28,12 +28,12 @@ di dalam folder ini terdapat dua folder yaitu folder yaitu unit dan feature
 kalian bisa mengetikkan perintah ini di terminal kalian\
 `php artisan make:test CustomerTest`
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24).png>)
 
 **Cara menjalankan test di feature ?**\
 `vendor/bin/phpunit — testsuite=Feature or php artisan test — testsuite=Feature`
 
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 Disini kita mendapatkan 2 test passed karena kita punya 2 test dan 2 assertion
 
@@ -41,13 +41,13 @@ Disini kita mendapatkan 2 test passed karena kita punya 2 test dan 2 assertion
 kalian bisa mengetikkan perintah ini di terminal kalian\
 `php artisan make:test CustomerTest --unit`
 
-![](<../.gitbook/assets/image (82).png>)
+![](<../../.gitbook/assets/image (82).png>)
 
 **Cara menjalankan test di unit?**
 
 `vendor/bin/phpunit tests/Unit or php artisan test tests/Unit`
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#id-9a3c" id="id-9a3c"></a>
 

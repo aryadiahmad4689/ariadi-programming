@@ -14,7 +14,7 @@ Buka Project Laravel Kita Sebelumnya Tentang Repository Pattern.
 
 Buatlah sebuah folder didalam `app` dengan nama `Service`
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/image (41).png>)
 
 Buatlah dua bua file `CustomerService.php dan CustomerServiceImplement.php`
 
@@ -28,31 +28,31 @@ protected $customerRepo;public function __construct(CustomerRepository $customer
 
 sekarang
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 kita mengganti semua methodnya berdasarkan yang kita buat di service
 
 Selanjutnya kita buat `CustomerService.php` seperti ini.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Kemudian `CustomerServiceImplement.php` seperti ini
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 Waktu belajar repository kita awalnya nge inject repository lansung ke Controller sekarang kita inject dia lansung ke Servicenya. jadi intinya Dari `Repo->Service->Controller.` seperti inilah gambarang high levelnya.
 
 Selanjutnya kita binding servicenya ke service provider. disini saya menggunakan `RepoServiceProvider.php` sebagai contoh. kalian bisa membuat service provider sendiri jika kalian mau.
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 Selanjutnya kit test aplikasinya menggunakan Test/Feature karena kita juga sudah belajar test pada tulisan sebelumnya. testnya sederhana kita cuma pengen tau dia berhasil tambah data.
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 test
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 Kita suddah berhasil membuat service pattern.
 

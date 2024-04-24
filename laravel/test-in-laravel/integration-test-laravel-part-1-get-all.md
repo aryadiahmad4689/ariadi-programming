@@ -8,7 +8,7 @@ Halo guys kembali lagi kita pada materi testing pada laravel. kali ini kita akan
 
 Disini kita tidak pure TDD karena kita ga ngetes dlu baru buat tapi kita buat dlu baru ngetes. karena TDD konsepnya kita harus buat dlu testnya baru buat functionnya. oke lansung saja kita masuk ke project laravel kita yang kemarin.
 
-![](<../.gitbook/assets/image (75).png>)
+![](<../../.gitbook/assets/image (75).png>)
 
 Disini kita hanya melakan integration testing pada laravel kita. jadi kita test full datanya secara real. walaupun ini sebenarnya mahal dari segi test tapi ini setidaknya kita bisa lihat real aplikasinya kalau berjalan bagaimana. dari semua test saya paling sering saya gunakan adalah test integration, karena saya tidak perlu unit test terlalu banyak karena biasanya sudah tercoverage disini. oke ayo kita mulai.
 
@@ -16,19 +16,19 @@ Kalian ketikkan perintah untuk ngebuat test feature di folder test.
 
 `php artisan make:test CustomerTest`
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 Maka akan terbuat sebuah file php dengan nama CustomerTest.php di folder Feature. Sekarang kita tulis test untuk method indexnya.
 
 Jadi yang akan kita test adalah function di bawah dengan menembak lansung routenya.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 Test Pertama kita buat adalah ngetest test\_index\_success
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 ```php
 $this->withoutExceptionHandling(); ini untuk mengecek jika ada error
@@ -43,7 +43,7 @@ Setelah Itu Kita Jalankan Testya dengan mengetik perintah
 
 `.vendor/bin/phpunit tests/Feature/CustomerTest.php -v`
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Disini kita melihat test kita berhasil dengan satu test 3 assertion yang kita masukkan.
 

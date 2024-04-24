@@ -53,7 +53,7 @@ Praktik kali ini kita akan menggunakan laravel sebagai wadahnya untuk belajar da
 * masuk ke project laravel kamu dan buat sebuah file dengan nama `Dockerfile` di folder root
 * Isikan File Seperti Di Bawah
 
-![](<../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (58).png>)
 
 Saya akan menjelaskan beberapa di bawah untuk yg tidak ada penjelasan silahkan lihat komentar di file
 
@@ -183,7 +183,7 @@ Untuk penjelasan silahkan lihat di komentar
 * commit dan push project kalian ke github
 * kunjungi `Actions` di repo kalian
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Jika Pipeline kalian berhasil di bangun akan seperti diatas.
 
@@ -205,7 +205,7 @@ gcloud projects create nama_project_idgcloud config set project nama_project_id
 
 Atau ke google console untuk buat project
 
-<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 * Enable Cloud Build Dan Container Registry
 
@@ -213,9 +213,9 @@ Atau ke google console untuk buat project
 
 Atau console
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 * Create Service Account
 
@@ -225,7 +225,7 @@ gcloud iam service-accounts create nama_akun_anda --description="Cloud Run deplo
 
 Atau console
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 * Memberikan Permission Service Account
 
@@ -235,20 +235,20 @@ gcloud projects add-iam-policy-binding project_id_anda --member=serviceAccount:n
 
 * Membuat key di service Account
 
-<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 Klik add key. pilih json dan simpan json yang terdownload nanti
 
 * Setelah Semua Selesai. kita repo github pilih setting dan pilih **secrets**
 * pilih actions
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Buat Gcp Secret Kalian
 
-![](<../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (51).png>)
 
 `GCP_APP_NAME=nama_akun_kamu(sembarang)`
 
@@ -326,11 +326,11 @@ Penjelasan Ada di File
 * Setelah itu commit dan push ke repository
 * Lihat Ke github actions workflownya
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 * Setelah itu kunjungi google console kalian dan masuk ke **cloud run untuk melihat alamat website kalian**
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-4596" id="id-4596"></a>
 

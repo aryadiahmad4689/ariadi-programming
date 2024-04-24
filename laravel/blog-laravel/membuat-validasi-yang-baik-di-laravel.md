@@ -10,7 +10,7 @@ Validasi adalah hal yang sangat krusial di dunia pemrogramang. maka dari itu san
 
 **Contoh Validasi Yang Biasa Kita Buat**
 
-****![](<../.gitbook/assets/image (73).png>)****
+![](<../../.gitbook/assets/image (73).png>)
 
 Seperti ini validasi yang biasa kita buat. lalu pertanyaanya apa ada masalah jika kita membuat validasi seperti ini?. sebenarnya ini sah-sah saja tapi dengan membuat seperti ini, kita melanggar pattern single resposibity pattern. yaitu kita melakukan dua action di dalam satu method. yang pertama kita validasi dan kedua kita menyimpan data.
 
@@ -26,21 +26,21 @@ Cara membuat request di laravel?
 
 Maka akan di buatkan file di dalam folder request.
 
-![](<../.gitbook/assets/image (56).png>)
+![](<../../.gitbook/assets/image (56).png>)
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 kalian bisa membuat validasi dengan cara di atas dan kalian bisa juga melakukan custom pesan errornya jika kalian tidak ingin menggunakan pesan error defaultnya.
 
 **Cara penggunaan di controller**
 
-****![](<../.gitbook/assets/image (26).png>)****
+![](<../../.gitbook/assets/image (26).png>)
 
 jangan lupa panggil `use App\Http\Requests\CustomerStoreRequest;`
 
 dengan begini store kalian hanya bertugas melakukan store saja.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#041b" id="041b"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-041b" id="id-041b"></a>
 
 ## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#b9de" id="b9de"></a>
 

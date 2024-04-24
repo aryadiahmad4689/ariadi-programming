@@ -2,7 +2,7 @@
 
 Halo teman2 semua. kali ini saya akan membahas mengenai singleflight. karena saya beberapa hari ini research dan banyak baca artikel akhirnya ketemu feature di golang dengan nama single flight. singleflight sendiri adalah sebuah metode sharing information yang di akses secara terus menerus dan merupakan data yang sama. jadi intinya alih alih kita melakukan request yang banyak ke sebuah function maka kita bisa memotong itu dengan sharing data/informationya saja. jadi satu kali akses saja dan ini akan membuat proses data kita semakin cepat.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#45af" id="45af"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah <a href="#id-45af" id="id-45af"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -71,21 +71,21 @@ Di atas ada dua function yang pertama
 
 Pemanggilan request tanpa singleflight dan hasilnya seperti ini
 
-![](<../.gitbook/assets/image (63).png>)
+![](<../../.gitbook/assets/image (63).png>)
 
 lihat hasilnya setiap kali request kita memanggil terus function google status dan process timenya di atas 1 second.
 
 Kita lihat ketika menggunakan singleflight
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25).png>)
 
 lihat perbedaanya dia hanya sekali manggil google status dan melakukan sharing data dan lihat response timenya 50 persenya ada yang di bawah 1 second
 
-## **Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah** <a href="#39ec" id="39ec"></a>
+## **Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawah** <a href="#id-39ec" id="id-39ec"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
-### **Note** <a href="#00ac" id="00ac"></a>
+### **Note** <a href="#id-00ac" id="id-00ac"></a>
 
 * implementasi perlu diperhatikan dengan baik
 * sebaiknya tidak digunakan untuk proses insert, update, delete karena rawan terjadi racecondition

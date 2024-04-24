@@ -14,15 +14,15 @@ Gracefull shutdown sendiri adalah sebuah mekanisme dalam menutup koneksi dengan 
 
 Buat sebuah folder di project golang kalian dengan nama server\_not. buat sebuah file bernama server\_not.go. kita akan mencoba melihat apa yang terjadi jika tidak menggunakan server not gracefull.
 
-![](<../.gitbook/assets/image (1) (2).png>)
+![](<../../.gitbook/assets/image (1) (2).png>)
 
 Di root main kalian bisa menuliskan code berikut
 
-![](<../.gitbook/assets/image (60).png>)
+![](<../../.gitbook/assets/image (60).png>)
 
 Yang Terjadi Seperti Ini
 
-![](<../.gitbook/assets/image (70).png>)
+![](<../../.gitbook/assets/image (70).png>)
 
 Proses berhenti di tengah jalan dan transfer uang sudah di lakukan.
 
@@ -30,7 +30,7 @@ Proses berhenti di tengah jalan dan transfer uang sudah di lakukan.
 
 dengan membuat sebuah folder dengan nama server dan didalamnya ada sebuah file bernama server.go
 
-![](<../.gitbook/assets/image (79).png>)
+![](<../../.gitbook/assets/image (79).png>)
 
 * Apa yang dilakukan di atas adalah. kita menggunnakan goroutine untuk menjalankan servernya
 
@@ -72,7 +72,7 @@ select { case sig := <-shutdownChannel:
 
 Kita lihat hasilnya
 
-<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 lihat kita mencoba melakukan `ctrl c` atau interupt ditengah request. dan berhasil menyelesaikan request dengan baik.\
 _Note : kenapa angakanya gak muncul karena saya salah memasukkan data parameter get HEADER_

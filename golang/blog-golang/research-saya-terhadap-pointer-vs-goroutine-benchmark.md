@@ -26,7 +26,7 @@ _adalah reference_ atau alamat memori. Variabel pointer berarti variabel yang be
 
 Saya namai testnya dengan`BenchmarChange1`
 
-![](<../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image (67).png>)
 
 dia atas adalah contoh codingan dengan menggunakan pointer
 
@@ -34,13 +34,13 @@ dia atas adalah contoh codingan dengan menggunakan pointer
 
 Saya namai testnya dengan`BenchmarChange`
 
-![](<../.gitbook/assets/image (50).png>)
+![](<../../.gitbook/assets/image (50).png>)
 
 dia atas adalah contoh codingan dengan menggunakan goroutine
 
 Ketika saya coba melakukan bencmark ternyata hasilnya menggunakan pointer jauh lebih cepat
 
-![](<../.gitbook/assets/image (19) (1).png>)
+![](<../../.gitbook/assets/image (19) (1).png>)
 
 dari hasilnya kita bisa melihat yang menggunakan pointer hanya butuh waktu `0.0000009ns` saja dalam melakukan proses data berbeda jauh dengan menggunakan goroutine yang butuh waktu `0.0000050ns` untuk melakukan proses data. bahkan saya mengulang tiga kali tetap saja hasilnya pointer jauh lebih cepat dalam memproses sebuah data. saya tidak tau apakah saya sudah menggunakan best practice dalam menulis coding goroutine. mungkin ada saran?
 

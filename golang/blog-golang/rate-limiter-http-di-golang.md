@@ -102,7 +102,7 @@ Kita membuat sebuah function public bernama limiter yang melewati http handler. 
 **Coba Kita Test**\
 kita membuat sebuah folder bernama server dialamnya ada file bernama server.go\
 \
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 isikan dengan
 
@@ -131,7 +131,7 @@ func main() {
 
 untuk di root main.go isikan dengan\
 foldenya sekarang seperti\
-![](<../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19).png>)
 
 ```go
 package main
@@ -168,7 +168,7 @@ func main() {
 jalankan server terlebih dahulu baru jalankan root main.go dan hasilnya\
 
 
-<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 lihat hasilnya ketika request ke lima belas dia akan mengembalikan error bahwa request terlalu banyak.
 

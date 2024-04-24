@@ -22,15 +22,15 @@ misalkan kita punya perusahaan bernama writely yang perusahaanya bertujuan untuk
 
 kita buat dlu interfacenya
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 buat implementasinya
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 sampai disini tidak ada masalah. sampai pada suatu waktu kita ingin mengganti teknologi ke google doc. dan ternyata google doc kita tidak sesuai dengan codingan yang kita buat. maka dari itu kita bisa membuat implementasi yang sesuai dengan menggunakan adapter
 
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 Dengan begini kita berhasil mengganti teknologi kita. tanpa merusak kode inti di codingan kita. lihat di atas. kita masih mengimplementasikan interface yang sama. tapi kita sudah mengganti teknologi kita sesuai dengan kebutuhan yang kita inginkan.
 

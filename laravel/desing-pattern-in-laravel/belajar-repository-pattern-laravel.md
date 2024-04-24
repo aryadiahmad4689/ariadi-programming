@@ -23,7 +23,7 @@ Download laravel di website resminya.
 
 Setelah Itu Kita membuat sebuah folder baru di dalam `app/dengan nama Repository`
 
-![](<../.gitbook/assets/image (81).png>)
+![](<../../.gitbook/assets/image (81).png>)
 
 Selanjutnya kita membuat duah buah file di dalam repository .sebagai contoh kita akan membuat `CustomerRepository.php dan CustomerRepositoryImplement.php` contoh kita yaitu menggunakan Customer yaa.
 
@@ -41,7 +41,7 @@ interface CustomerRepository{
 
 Selanjutnya kita akan mengisi `CustomerRepositoryImplement.php` dengan implementasi dari interface yang kita sudah buat di atas.
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 Setelah itu kita buat model customer dan controllernya
 
@@ -50,13 +50,13 @@ php artisan make:model Customer -m
 php artisan make:controller CustomerController -m
 ```
 
-![](<../.gitbook/assets/image (57).png>)
+![](<../../.gitbook/assets/image (57).png>)
 
 Untuk isi **`$fillable`** modelnya saya mengisikan dengan (nama,alamat,umur) saja sebagai contoh;
 
 Cara Memakai Repository di controller?
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 1. Memanggi Interface dengan use `App\Repository\CustomerRepository;`
 2. Kita passing dengan construct supaya controllernya tau bahwa dia butuh customer repository
@@ -68,11 +68,11 @@ Selanjutnya kita buatkan ServiceProvider agar kita bisa melakukan Devendency Inj
 php artisan make:provider RepoServiceProvider
 ```
 
-![](<../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (74).png>)
 
 Isinya kita cuma binding agar kita bisa pakai nantinya
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 Selanjutnya kita daftarkan provider kita di folder `config/app di bagian provider`
 
