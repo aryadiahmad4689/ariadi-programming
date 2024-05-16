@@ -48,6 +48,7 @@
 
 ## Blog Coding
 
+* [Jenis Jenis Database](blog-coding/jenis-jenis-database.md)
 * [Api Versioning](blog-coding/api-versioning.md)
 * [Perjalanan Coding Saya](blog-coding/perjalanan-coding-saya.md)
 * [Hal Yang Harus Diperhatikan Ketika Memulai Coding](blog-coding/hal-yang-harus-diperhatikan-ketika-memulai-coding.md)
