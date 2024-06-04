@@ -1,0 +1,2 @@
+# Constanta PHP
+

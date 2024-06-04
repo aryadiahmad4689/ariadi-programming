@@ -2,7 +2,7 @@
 
 Halo semua**.** kali ini saya akan membagikan cara menulist test table di golang. test table sendiri adalah jenis test yang dilakukan menggunakan perulangan untuk mempermudah kita dalam menulis case yang terus berulang agar code kita tidak redundant.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#9a3c" id="9a3c"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#id-9a3c" id="id-9a3c"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
@@ -187,7 +187,7 @@ lihatkan code dibawahnya tidak berubah hanya casenya yang ditambah.
 
 Cara diatas bukan berarti cara test yang paling benar yaa. ini adalah jenis test yang bisa kita  lakukan di golang dan di beberapa bahasa lain juga. kalian tergantung bisa melakukan cara test yang kalian suka yang penting testnya tidak menyusahkan kalian dan berjalan dengan baik. kalau untuk saya sendiri saya lebih suka jenis test table wlaupun di kantor di pakai kedua duanya.
 
-## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#9a3c" id="9a3c"></a>
+## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#id-9a3c" id="id-9a3c"></a>
 
 [![Trakteer Saya](https://cdn.trakteer.id/images/embed/trbtn-red-5.png)](https://trakteer.id/ariadi-ahmad-28xqo/tip)
 
