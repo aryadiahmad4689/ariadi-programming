@@ -38,6 +38,19 @@
 
 ## PHP
 
+* [OOP PHP](php/oop-php/README.md)
+  * [Apa Itu OOP Dan Alasan Menggunakanya?](php/oop-php/apa-itu-oop-dan-alasan-menggunakanya.md)
+  * [Perbedaan Pemrogramman Prosedural Dan OOP](php/oop-php/perbedaan-pemrogramman-prosedural-dan-oop.md)
+  * [Class Dan Object](php/oop-php/class-dan-object.md)
+  * [Properti dan Method](php/oop-php/properti-dan-method.md)
+  * [Apa itu Encapsulation](php/oop-php/apa-itu-encapsulation/README.md)
+    * [Penggunaan Encapsulation](php/oop-php/apa-itu-encapsulation/penggunaan-encapsulation.md)
+  * [Constructor Dan Destructor](php/oop-php/constructor-dan-destructor.md)
+  * [Inheritance](php/oop-php/inheritance/README.md)
+    * [Contoh Inheritance](php/oop-php/inheritance/contoh-inheritance.md)
+  * [Overidding Method](php/oop-php/overidding-method.md)
+  * [Polimorpysm](php/oop-php/polimorpysm.md)
+  * [Abstraction Class](php/oop-php/abstraction-class.md)
 * [Design Pattern PHP](php/design-pattern-php/README.md)
   * [Factory Pattern Di PHP](php/design-pattern-php/factory-pattern-di-php.md)
   * [Abstract Pattern Di PHP](php/design-pattern-php/abstract-pattern-di-php.md)
