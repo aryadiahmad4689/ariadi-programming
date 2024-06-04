@@ -62,6 +62,7 @@
 ## Blog Coding
 
 * [Jenis Jenis Database](blog-coding/jenis-jenis-database.md)
+* [Bagaimana Uber Menggunakan Redis untuk Melayani 40 Juta Pembacaan/Detik?](blog-coding/bagaimana-uber-menggunakan-redis-untuk-melayani-40-juta-pembacaan-detik.md)
 * [Api Versioning](blog-coding/api-versioning.md)
 * [Perjalanan Coding Saya](blog-coding/perjalanan-coding-saya.md)
 * [Hal Yang Harus Diperhatikan Ketika Memulai Coding](blog-coding/hal-yang-harus-diperhatikan-ketika-memulai-coding.md)
