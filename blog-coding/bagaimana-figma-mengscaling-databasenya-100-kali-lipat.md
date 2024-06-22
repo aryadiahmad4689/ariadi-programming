@@ -205,5 +205,12 @@ Tujuan akhir Figma adalah untuk melakukan sharding horizontal pada setiap tabel 
 * Mengembangkan model ORM untuk meningkatkan kecepatan pengembang
 * Operasi reshard otomatis untuk memungkinkan pembagian shard dengan sekali klik.
 
-Terakhir, setelah mencapai jangka waktu yang cukup, mereka juga berencana untuk mengevaluasi kembali pendekatan mereka saat ini dalam menggunakan sharding horizontal RDS in-house dibandingkan beralih ke alternatif open-source atau terkelola di masa depan.
+Terakhir, setelah mencapai jangka waktu yang cukup, mereka juga berencana untuk mengevaluasi kembali pendekatan mereka saat ini dalam menggunakan sharding horizontal RDS in-house dibandingkan beralih ke alternatif open-source atau terkelola di masa depan.\
+\
+**Referensi:**
+
+* [How Figma’s databases team lived to tell the scale](https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/)
+* [The growing pains of database architecture](https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/)
+* [Features of PgBouncer](https://www.pgbouncer.org/features.html)
+* [Figma User Statistics](https://zipdo.co/statistics/figma-user/)
 
