@@ -10,7 +10,7 @@ Katakanlah kita ingin mengubah kontrak data objek respons kita. Hal ini dapat me
 \
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Untuk memperbaikinya, kita harus meminta semua pengguna kita untuk memperbarui aplikasi mereka agar dapat bekerja dengan perubahan terbaru Kita. Jika ini sering terjadi, pengguna akan frustrasi. \
 \
@@ -45,7 +45,7 @@ Dalam pendekatan ini, Kita menambahkan fitur atau kolom baru ke API  tanpa mengu
 
 Namun, beberapa operasi tidak diperbolehkan dalam strategi perubahan aditif. Tabel di bawah menunjukkan beberapa operasi tersebut.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Di sisi lain, ada beberapa hal yang boleh di lakukan.&#x20;
 

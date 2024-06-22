@@ -14,7 +14,7 @@ Kalau dari penjelasan seperti di atas mungkin kurang mengerti yaa. saya juga seb
 
 Pertama kita buat pabriknya dengan nama classnya Baju dan punya method namanya buatBaju
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 Selanjutnya kita buat concreate classnya. berdasarkan jenis baju yang ingin kita buat. contoh disini **`bajuLenganPanjang dan bajuLenganPendek`**
 
