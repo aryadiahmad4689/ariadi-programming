@@ -43,7 +43,7 @@ Setelah Itu Kita Jalankan Testya dengan mengetik perintah
 
 `.vendor/bin/phpunit tests/Feature/CustomerTest.php -v`
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Disini kita melihat test kita berhasil dengan satu test 3 assertion yang kita masukkan.
 

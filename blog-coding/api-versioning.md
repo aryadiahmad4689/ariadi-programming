@@ -10,7 +10,7 @@ Katakanlah kita ingin mengubah kontrak data objek respons kita. Hal ini dapat me
 \
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Untuk memperbaikinya, kita harus meminta semua pengguna kita untuk memperbarui aplikasi mereka agar dapat bekerja dengan perubahan terbaru Kita. Jika ini sering terjadi, pengguna akan frustrasi. \
 \
@@ -45,17 +45,17 @@ Dalam pendekatan ini, Kita menambahkan fitur atau kolom baru ke API  tanpa mengu
 
 Namun, beberapa operasi tidak diperbolehkan dalam strategi perubahan aditif. Tabel di bawah menunjukkan beberapa operasi tersebut.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Di sisi lain, ada beberapa hal yang boleh di lakukan.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Poin terakhir dalam tabel operasi yang diizinkan mungkin tampak bertentangan, namun sebenarnya tidak. Ide utamanya adalah untuk menghindari perubahan yang merusak. Selama pengguna dapat ikut serta.
 
 Misalnya, kita memiliki respons berikut di API cuaca fiktif seperti yang ditunjukkan di bawah ini.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Catatan:** _Dalam strategi perubahan aditif, menambahkan perubahan baru tidak dianggap sebagai perubahan yang dapat menghentikan. Namun, ada pengecualian terhadap aturan ini. Misalnya, kita tidak dapat menambahkan parameter kueri yang diperlukan. Dalam contoh di atas, kita tidak bisa menjadikan parameter kueri_ **“ **_**exclude\_pressure=true”** wajib._ \
 \
@@ -64,13 +64,13 @@ Misalnya, kita memiliki respons berikut di API cuaca fiktif seperti yang ditunju
 Dalam pendekatan ini, kita menyimpan beberapa versi API. Saat kita ingin melakukan perubahan pada API, kita merilisnya sebagai versi baru. Hal ini berbeda dengan strategi perubahan aditif, yang tidak memperbolehkan perubahan yang dapat dihentikan. Strategi pembuatan versi eksplisit memungkinkan kita melakukan perubahan apa pun, dan itulah perbedaan utamanya.\
 \
 **Uri Component**\
-![](<../.gitbook/assets/image (4).png>)\
+![](<../.gitbook/assets/image (4) (1).png>)\
 \
 **Keunggulan**\
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 **Http Header Versioning**\
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 **Keunggulan**\
 ![](<../.gitbook/assets/image (8).png>)

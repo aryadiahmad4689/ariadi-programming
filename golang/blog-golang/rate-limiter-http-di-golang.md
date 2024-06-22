@@ -102,7 +102,7 @@ Kita membuat sebuah function public bernama limiter yang melewati http handler. 
 **Coba Kita Test**\
 kita membuat sebuah folder bernama server dialamnya ada file bernama server.go\
 \
-![](<../../.gitbook/assets/image (6) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1).png>)
 
 isikan dengan
 

@@ -34,7 +34,7 @@ kita mengganti semua methodnya berdasarkan yang kita buat di service
 
 Selanjutnya kita buat `CustomerService.php` seperti ini.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Kemudian `CustomerServiceImplement.php` seperti ini
 

@@ -47,7 +47,7 @@ kalian bisa mengetikkan perintah ini di terminal kalian\
 
 `vendor/bin/phpunit tests/Unit or php artisan test tests/Unit`
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Yang Ingin Membantu Saya Untuk Terus Berkontribusi Boleh Banget Klik Dibawa**h** <a href="#id-9a3c" id="id-9a3c"></a>
 

@@ -70,6 +70,8 @@ Mempartisi lapisan PgBouncer terlebih dahulu memberi beberapa kelonggaran pada k
 
 Diagram berikut menunjukkan proses migrasi ini:
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 **Mengimplementasikan Replikasi**
 
 Replikasi data adalah cara yang bagus untuk menskalakan operasi baca untuk basis data Anda. Ketika datang ke replikasi data untuk partisi vertikal, Figma memiliki dua opsi dalam Postgres: replikasi streaming atau replikasi logis.
@@ -107,6 +109,8 @@ Bagi Figma, sharding horizontal adalah cara untuk membagi tabel besar di beberap
 
 Diagram berikut menunjukkan pendekatan ini:
 
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 Namun, sharding horizontal adalah proses yang kompleks yang membawa tantangannya sendiri:
 
 * Beberapa query SQL menjadi tidak efisien untuk didukung.
@@ -119,9 +123,7 @@ Namun, sharding horizontal adalah proses yang kompleks yang membawa tantangannya
 
 Tim engineering di Figma mengevaluasi opsi SQL alternatif seperti CockroachDB, TiDB, Spanner, dan Vitess serta basis data NoSQL.
 
-Namun, pada akhirnya mereka memutuskan untuk membangun solusi sharding horizontal di atas infrastruktur RDS Postgres yang telah mereka partisi
-
-vertikal.
+Namun, pada akhirnya mereka memutuskan untuk membangun solusi sharding horizontal di atas infrastruktur RDS Postgres yang telah mereka partisi vertikal.
 
 Ada beberapa alasan untuk mengambil keputusan ini:
 
@@ -148,6 +150,8 @@ Tabel dalam colo mendukung join lintas tabel dan transaksi penuh ketika dibatasi
 
 Diagram berikut menunjukkan konsep colos:
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 **Sharding Logis vs Sharding Fisik**
 
 Figma memisahkan konsep “sharding logis” di lapisan aplikasi dari “sharding fisik” di lapisan Postgres.
@@ -170,13 +174,15 @@ DBProxy mencakup mesin query ringan yang mampu memparsing dan mengeksekusi query
 
 Diagram berikut menunjukkan penggunaan praktis dari tiga komponen ini dalam alur kerja pemrosesan query:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Selalu ada trade-off ketika berhubungan dengan query di dunia yang di-shard secara horizontal. Query untuk satu kunci shard relatif mudah diimplementasikan. Mesin query hanya perlu mengekstrak kunci shard dan merutekan query ke basis data fisik yang sesuai.
 
 Namun, jika query tidak mengandung kunci sharding, mesin query harus melakukan operasi “scatter-gather” yang lebih kompleks. Operasi ini mirip dengan permainan petak umpet di mana Anda mengirim query ke setiap shard (scatter), dan kemudian menyusun jawaban dari masing-masing shard (gather).
 
 Diagram berikut menunjukkan bagaimana query single-shard bekerja dibandingkan dengan query scatter-gather:
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Seperti yang Anda lihat, ini meningkatkan beban pada basis data, dan memiliki terlalu banyak query scatter-gather dapat merusak skalabilitas horizontal.
 
