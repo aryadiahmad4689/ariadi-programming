@@ -119,6 +119,7 @@
 
 ## Blog Coding
 
+* [Memahami Konsep Chaos Engineering](blog-coding/memahami-konsep-chaos-engineering.md)
 * [Bagaimana Figma Mengscaling Databasenya 100 Kali Lipat](blog-coding/bagaimana-figma-mengscaling-databasenya-100-kali-lipat.md)
 * [Jenis Jenis Database](blog-coding/jenis-jenis-database.md)
 * [Bagaimana Uber Menggunakan Redis untuk Melayani 40 Juta Pembacaan/Detik?](blog-coding/bagaimana-uber-menggunakan-redis-untuk-melayani-40-juta-pembacaan-detik.md)
