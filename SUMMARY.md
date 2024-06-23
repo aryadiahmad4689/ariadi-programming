@@ -119,6 +119,7 @@
 
 ## Blog Coding
 
+* [Bagaima Paypal Menggunakan Kafka Untuk Mengirim 1.3 Triliun Pesan/Hari](blog-coding/bagaima-paypal-menggunakan-kafka-untuk-mengirim-1.3-triliun-pesan-hari.md)
 * [Memahami Konsep Chaos Engineering](blog-coding/memahami-konsep-chaos-engineering.md)
 * [Bagaimana Figma Mengscaling Databasenya 100 Kali Lipat](blog-coding/bagaimana-figma-mengscaling-databasenya-100-kali-lipat.md)
 * [Jenis Jenis Database](blog-coding/jenis-jenis-database.md)
