@@ -119,6 +119,7 @@
 
 ## Blog Coding
 
+* [Mendalami Microservice Architecture](blog-coding/mendalami-microservice-architecture.md)
 * [Mendalami Database Sharding](blog-coding/mendalami-database-sharding.md)
 * [Bagaima Paypal Menggunakan Kafka Untuk Mengirim 1.3 Triliun Pesan/Hari](blog-coding/bagaima-paypal-menggunakan-kafka-untuk-mengirim-1.3-triliun-pesan-hari.md)
 * [Memahami Konsep Chaos Engineering](blog-coding/memahami-konsep-chaos-engineering.md)
