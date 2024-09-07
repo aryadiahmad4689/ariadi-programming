@@ -15,6 +15,7 @@
   * [Gracefully Shutdown Golang](golang/blog-golang/gracefully-shutdown-golang.md)
   * [Menulis Test Table Di Golang](golang/menulis-test-table-di-golang.md)
   * [Rate Limiter Http Di Golang](golang/blog-golang/rate-limiter-http-di-golang.md)
+* [Ebook By Ariadi Ahmad](golang/ebook-by-ariadi-ahmad.md)
 
 ## Laravel
 
