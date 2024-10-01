@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Bagaimana Uber Menggunakan Redis untuk Melayani 40 Juta Pembacaan/Detik?
 
 Pada tahun 2020, Uber meluncurkan database terdistribusi internal mereka yang diberi nama Docstore.

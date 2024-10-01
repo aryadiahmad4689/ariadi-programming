@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Api Versioning
 
 Mengapa Menggunakan Versi API?&#x20;

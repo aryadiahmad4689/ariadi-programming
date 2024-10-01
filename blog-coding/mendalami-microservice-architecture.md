@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Mendalami Microservice Architecture
 
 #### Database Per Service Pattern

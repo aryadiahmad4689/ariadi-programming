@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Bagaimana Figma Mengscaling Databasenya 100 Kali Lipat
 
 Figma, sebuah platform desain kolaboratif, telah mengalami pertumbuhan yang luar biasa selama beberapa tahun terakhir. Basis penggunanya telah meningkat hampir 200% sejak 2018, dengan sekitar 3 juta pengguna bulanan.
